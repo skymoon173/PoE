@@ -317,6 +317,8 @@ def MZ07_Inverse_Dynamics_PoEModel():
 	A5 = np.dot(AdT_M05_Inverse,S5)
 	A6 = np.dot(AdT_M06_Inverse,S6)
 
+	#计算后一个连杆质心坐标系在上一个连杆质心坐标系下的位形
+	
 
 
 	# e_Sθ1 = PoE.e_Sθ(S1[0][0],S1[1][0],S1[2][0],S1[3][0],S1[4][0],S1[5][0],θ1*np.pi/180)
